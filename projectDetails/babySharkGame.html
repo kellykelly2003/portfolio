@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/projectDetails.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Baby Shark Game</title>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="projectPage">
+        <!-- Detail Page Header/Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand brand" href="../portfolio.html#welcome-section">Kelly Kelly</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../portfolio.html#welcome-section">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../portfolio.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../portfolio.html#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../portfolio.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Detail Page Content -->
+        <div class="container-fluid" id="projectContent">
+            <!-- Top row of content -->
+            <div class="row projectTitle">
+                <div class="col">
+                    <div class="title text-center">
+                        <h3 class="heading p-3">Baby Shark Game</h3>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5 gy-4 d-flex justify-content-center">
+                    <div class="col-8   ">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" id="0">
+                                    <img src="../images/babyShark4.PNG" class="d-block w-100 " alt="">
+                                </div>
+                                <div class="carousel-item" id="1">
+                                    <img src="../images/babyShark3.PNG" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" id="2">
+                                    <img src="../images/babyShark2.PNG" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ">
+                        <a class="carousel-control-prev bg-dark " role="button" href="#carouselExampleCaptions" data-bs-slide="prev">
+                            <i class="bi bi-arrow-left carousel-control-prev-icon text-dark" style="font-size: 3rem;"></i>
+                        </a>
+                        <a class="carousel-control-next  text-dark bg-dark" role="button" href="#carouselExampleCaptions" data-bs-slide="next">
+                            <i class="bi bi-arrow-right carousel-control-next-icon text-dark" style="font-size: 3rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom row of content -->
+            <div class="row text-dark pt-3 m-5">
+                <div class="col pt-3">
+                    <div class="portfolioDescription">
+                        <h2>The Details</h2>
+                        <p>I used scratch.mit.edu to create this Baby Shark Game. Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations. Scratch helps people to learn to systematically work to make the tools respond.</p>
+                        <p>The desktop version of this game works, but the mobile version is much more user friendly. I have a love/hate relationship with the song that this game is based on and couldn't resist the challenge to create a simple game kids (and maybe a certain teacher) would enjoy. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Detail Page Footer -->
+        <div class="footer">
+            <div class="row" id="footer">
+                <div class="col text-white text-center">
+                    <footer>
+                        <p>&copy; 2021 Created by Kelly Kelly</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/carousal.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>

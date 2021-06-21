@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Kelly Kelly Portfolio</title>
+</head>
+
+<body>
+
+    <!--  Page one of portfolio -->
+    <!-- <div class="parallax"> -->
+    <a name="home"></a>
+    <div class="menu-container false">
+        <div class="overlay"></div>
+        <div class="menu-items">
+            <ul>
+                <li><a href="#welcome-section" class="menu-link">HOME</a></li>
+                <li><a href="#about" class="menu-link">ABOUT</a></li>
+                <li><a href="#projects" class="menu-link">PORTFOLIO</a></li>
+                <li><a href="#contact" class="menu-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="page">
+
+        <nav class="navbar  fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand brand" href="#">Kelly Kelly</a>
+                <a class="menu-button custom-toggler d-flex justify-content-end "><i class="bi bi-list"></i></a>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid d-flex justify-content-center align-items-center welcome" id="welcome-section">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <h1>
+                            <span class="line">Web development</span>
+                            <span class="line">
+                                <span class="color">&</span>
+                                business organization
+                            </span>
+                        </h1>
+                        <div class="buttons">
+                            <a href="#projects">My Portfolio</a>
+                            <a href="#contact" class="cta">Come Find Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- Page two of portfolio -->
+        <a name="about"></a>
+        <div class="background">
+            <div class="container-fluid" id="about">
+                <div class="row ">
+                    <div class="col-12 margin">
+                        <div class="title text-center p-3">
+                            <h3 class="heading">Who am I?</h3>
+                            <p class="separator"></p>
+                        </div>
+
+                        <div class="description">
+                            <h3 class="subtitle">I am Kelly Kelly</h3>
+                            <p class="nameDetail">Yes, you read that right. Name so nice you say it twice!</p>
+                            <p>I am a web developer based in Vancouver Washington (an area of the Pacific Northwest). Finding solutions to problems and developing environments that fit the way we work are priority of mine. Learning new ways to meet user needs and incorporate the newest techniques to create a positive experience is crucial.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="title text-center p-3">
+                            <h3 class="heading">What do I do?</h3>
+                            <p class="separator"></p>
+                        </div>
+                        <div class="description">
+                            <h4 class="subtitle">I am a full-stack developer</h4>
+                            <p>My front-end design is used to convey customers' branding and needs to make a business easily recognizable. It is an ever changing field that requires continuous education that I enthusiastically embrace. Many skills are needed to be competitive and HTML, CSS, and Javascript are essential building blocks that I use as base front-end design tools.</p>
+                            <p>My back-end programming implements technical skills that allow front-end designs to work effortlessly. Developing applications and/or websites require a rigorous routine that involves creating, maintaining, debugging, and testing for functionality. PHP, C#, SQL and Python are some of the back-end programming languages I use to add utility to everything created in the front-end. </p>
+                        </div>
+                        <div class="description">
+                            <h4 class="subtitle">and a designer.</h4>
+                            <p>My web designs work interchangeably with both front-end and back-end languages to make sure the layout, visual appearance and usability of a website are of the highest quality. Specifically, I have a passion for making every app/site accessible for use by everyone and providing a positive user experience.</p>
+                            <p>Adobe products, like PhotoShop & Illustrator, are valuable tools to create great designs. Programs like Figma and Gimp allow impressive mock-ups and idea creation to later be turned into functioning sites. </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page three of portfolio -->
+        <a name="project"></a>
+        <div class="container-fluid" id="projects">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center p-3">
+                        <h3 class="heading">My Work</h3>
+                        <p class="separator"></p>
+                        <p class="subtitle">Projects developed while earning a Web Development Degree at Clark College.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/nytDetails.html">
+                        <img class="project-image shadow" src="images/nyt1.PNG" alt="Screenshot of New York Times API Project">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">New York Times</h5>
+                        </div>
+                        <p>Built using JavaScript, HTML, CSS, Bootstrap, and New York Times API.</p>
+                        <p>This is a full-stack website that allows the user to choose what topics from the New York Times they want displayed. </p>
+                        <div class="buttons">
+                            <a href="projectDetails/nytDetails.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/weatherDetails.html">
+                        <img class="project-image shadow" src="images/weather.PNG" alt="Screenshot of a weather app.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Weather App</h5>
+                        </div>
+                        <p>Built using Open-Weather API, Javascript, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a full-stack website that allows the user to input a zip code and have the weather displayed.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/weatherDetails.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/responsiveDesign.html">
+                        <img class="project-image shadow" src="images/responsiveDesign.PNG" alt="Screenshot of a design that is responsive">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Responsive Design</h5>
+                        </div>
+                        <p>Built using HTML & CSS.</p>
+                        <p>These are simple pages created using different responsive techniques (including CSS Grids, FlexBox, and smooth scrolling). </p>
+                        <div class="buttons">
+                            <a href="projectDetails/responsiveDesign.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/tamedChaos.html">
+                        <img class="project-image shadow" src="images/tamedChaos.PNG" alt="Screenshot of Tamed Chaos website.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Tamed Chaos</h5>
+                        </div>
+                        <p>Built using HTML & CSS</p>
+                        <p>This is a full-stack website that contains multiple pages, products and pricing, contact information and more. Designed with a specific color palette in mind. </p>
+                        <div class="buttons">
+                            <a href="projectDetails/tamedChaos.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/penquinNews.html">
+                        <img class="project-image shadow" src="images/penguinNews.PNG" alt="Screenshot of Penquin News.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Penguin News</h5>
+                        </div>
+                        <p>Built using JavaScript, HTML, CSS, and bootstrap.</p>
+                        <p>This is a full-stack website that uses intervals to switch random quotes, student profiles, and watching for event listeners.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/penquinNews.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/imageSwitcher.html">
+                        <img class="project-image shadow" src="images/imageSwitcher.PNG" alt="Screenshot of an image switcher.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Image Switcher</h5>
+                        </div>
+                        <p>Built using JavaScript, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a full-stack app that is set to randomly display an array of images that switch at a set interval of time and the switching will continue until specific events occur.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/imageSwitcher.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/pajamaForm.html">
+                        <img class="project-image shadow" src="images/orderForm.PNG" alt="Screenshot of Pajama Order Form">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Pajama Order Form</h5>
+                        </div>
+                        <p>Built using PHP, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a page that can process a form that checks for faulty information requires input completion to submit. Notification is sent to the "company" and a reply is given to the customer. </p>
+                        <div class="buttons">
+                            <a href="projectDetails/pajamaForm.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/todoList.html">
+                        <img class="project-image shadow" src="images/todoList.PNG" alt="Screenshot of a to-do list.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">To Do List</h5>
+                        </div>
+                        <p>Built using JavaScript, HTML, CSS, and Bootstrap.</p>
+                        <p>This is an app that works as a to-do list. Items can be added to the list, crossed off, or removed from the list. This is a use of coding to take advantage of local storage.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/todoList.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/babySharkGame.html">
+                        <img class="project-image shadow" src="images/babyShark.PNG" alt="Screenshot of Baby Shark Game">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Baby Shark Game</h5>
+                        </div>
+                        <p>Built using scratch.mit.edu.</p>
+                        <p>This is a game using logic organization to emulate a shark eating fish. The sounds are created using the popular "Baby Shark" song some other sounds created in Scratch to mimic chomping.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/babySharkGame.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/streamingServices.html">
+                        <img class="project-image shadow" src="images/streaming.PNG" alt="Screenshot of streaming services cards.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Streaming Services</h5>
+                        </div>
+                        <p>Built using JavaScript, JSON, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a set of cards populated with information gathered from JSON I created, which was built with specific parameters. I used JavaScript to display the information.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/streamingServices.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/digitalClock.html">
+                        <img class="project-image shadow" src="images/digitalClock.PNG" alt="Screenshot of a digital clock.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Digital Clock</h5>
+                        </div>
+                        <p>Built using JavaScript, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a digital clock that allows the user to customize the appearance. Buttons allow the user to chose background and text colors and the image changes throughout the day..</p>
+                        <div class="buttons">
+                            <a href="projectDetails/digitalClock.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/achillesDogFood.html">
+                        <img class="project-image shadow" src="images/dogfoodWordpress.PNG" alt="Screenshot of Achilles Organic Dog Food">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Achilles's Organic Dog Food</h5>
+                        </div>
+                        <p>Built using WordPress.</p>
+                        <p>This is a fully functioning site designed in WordPress. Achilles Organic Dog Food has a blog, eduction area, shop with products, widgets displaying reviews and information.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/achillesDogFood.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/figmaMockups.html">
+                        <img class="project-image shadow" src="images/galleryMockup2.PNG" alt="Screenshot of a Figma Mockup">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Figma mock-ups</h5>
+                        </div>
+                        <p>Built using Figma </p>
+                        <p>Often the first step to a website is an idea. Using Figma to create mockups that may eventually become fully function websites is a useful tool. </p>
+                        <div class="buttons">
+                            <a href="projectDetails/figmaMockups.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/tempConverter.html">
+                        <img class="project-image shadow" src="images/tempConverter.PNG" alt="Screenshot of Temperature Converter">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Temperature Converter</h5>
+                        </div>
+                        <p>Built using HTML, CSS, and Bootstrap. </p>
+                        <p>This is an app that converts temperature from one scale to another. I used Bootstrap cards to display the information and to create the card effect.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/tempConverter.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/studentRecords.html">
+                        <img class="project-image shadow" src="images/studentRecords.PNG" alt="Screenshot of a student record database">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Student Records Manager</h5>
+                        </div>
+                        <p>Built using PHP, SQL, HTML, CSS, and Bootstrap.</p>
+                        <p>This is a full-stack website that incorporates several software and platform tools. The site allows a user to create, read, update and delete student records from a database. </p>
+                        <div class="buttons">
+                            <a href="projectDetails/studentRecords.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">placeholder</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/imageGallery.html">
+                        <img class="project-image shadow" src="images/imageGallery.PNG" alt="Screenshot of Image Gallery.">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Image Gallery</h5>
+                        </div>
+                        <p>Built using PHP, HTML, CSS, and Bootstrap. </p>
+                        <p>This is a webpage that allows the user to upload or delete images to/from an image gallery, with a login, logout, and registration system to provide safety and privacy to the users account.</p>
+                        <div class="buttons">
+                            <a href="projectDetails/imageGallery.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/wordpress.html">
+                        <img class="project-image shadow" src="images/wordpress_logo.png" alt="Screenshot of Temperature Converter">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">WordPress</h5>
+                        </div>
+                        <p>Built using WordPress. </p>
+                        <p><br><br><br><br></p>
+                        <div class="buttons">
+                            <a href="projectDetails/wordpress.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project">
+                    <a class="project-link" href="projectDetails/caseStudies.html">
+                        <img class="project-image shadow" src="images/caseStudy.png" alt="Screenshot of Temperature Converter">
+                    </a>
+                    <div class="project-details">
+                        <div class="project-tile">
+                            <h5 class="text-center pt-3">Case Studies</h5>
+                        </div>
+                        <p>Built using it all. </p>
+                        <p><br><br><br><br></p>
+                        <div class="buttons">
+                            <a href="projectDetails/caseStudies.html">More Details</a>
+                            <i class="fas fa-external-link-alt"></i>
+                            <a href="">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+            </div>
+        </div>
+        <!-- Portfolio page four skills/experience  -->
+        <a name="skills"></a>
+        <div class="background">
+            <div class="container-fluid" id="skills">
+                <div class="row">
+                    <div class="col-12 margin">
+                        <div class="title text-center p-3">
+                            <h3 class="heading">What are my skills?</h3>
+                            <p class="separator"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="description">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-8 col-sm-12 mx-auto pr-5">
+
+                                <div class="h-50">
+                                    <h4>Programming Languages</h4>
+                                    <p>HTML5 | CSS | Bootstrap | C# | JavaScript | PHP | MySQL/SQL | Python</p>
+                                </div>
+                                <div class="h-50">
+                                    <h4>Frameworks/Platforms</h4>
+                                    <p>WordPress | Slack | Git/GitHub | Amazon Web Services | Figma</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-8 col-sm-12 mx-auto pr-5">
+                                <div class="h-50">
+                                    <h4>Other Tools</h4>
+                                    <p>Adobe Photoshop | Adobe Illustrator | Trello | VS Code | Visual Studio | kardSort | XAMPP</p>
+                                </div>
+                                <div class="h-50">
+                                    <h4>DataBases</h4>
+                                    <p>phpMyAdmin | Ubuntu | Apache Nginx</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-8 col-sm-12 mx-auto ">
+                                <div class="h-100">
+                                    <h4>Microsoft Technology Associate (MTA)</h4>
+                                    <ul>
+                                        <li>MTA 98-364: Database Fundamentals</li>
+                                        <li>MTA 98-383: Intro to Programming using HTML/CSS</li>
+                                        <!-- <li>MTA 98-382: Intro to Programming using JavaScript</li> -->
+                                        <li>MTA 98-381: Intro to Programming using Python</li>
+                                        <li>MTA 98-361: Software Development Fundamentals using C#</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title text-center p-3">
+                            <p class="separator"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Portfolio page five -->
+    <a name="contact"></a>
+    <div class="container-fluid" id="contact">
+        <div class="row d-flex justify-content-center">
+            <div class="col-8">
+                <div class="title text-center p-3">
+                    <p class="title">Looking to <br>contact me?</p>
+                    <p class="separator"></p>
+                    <p class="subtitle">Please use the form below or send an email to <a href="mailto:kellykelly_2003@yahoo.com">kellykelly_2003@yahoo.com</a>
+                    </p>
+                </div>
+                <form action="https://formspree.io/f/xwkabzqw" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-check-label">Message</label>
+                        <textarea class=form-control name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row" id="footer">
+            <div class="col text-white text-center">
+                <footer>
+                    <p>&copy; 2021 Created by Kelly Kelly</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>

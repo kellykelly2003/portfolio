@@ -1,0 +1,655 @@
+*, *::before, *::after, :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
+html, body {
+    height: 100%;
+}
+
+/* Total body control */
+
+body {
+    color: #000000;
+    background: #000000;
+    font-size: 62.5%;
+    font-family: 'Overlock', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a, a:visited {
+    color: #f300b4;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:hover, a:active {
+    color: #ffffff;
+}
+
+/* Hidden Menu Layer */
+.menu-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background: #000000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-items ul {
+    list-style-type: none;
+}
+
+.menu-items ul li {
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: italic;
+    /* color: #fafafa; */
+    line-height: 3rem;
+}
+
+#navbar .brand {
+    color: #f300b4;
+}
+
+.menu-button, .brand {
+    font-size: 5em;
+    /* color: #fff; */
+    color: #f300b4;
+}
+
+#navbar a:hover {
+    color: #ffffff;
+    /* text-decoration: underline; */
+}
+
+.navbar {
+    background-color: #000000;
+    color: #f300b4;
+}
+
+.navbar-brand {
+    color: #f300b4;
+}
+
+/* Welcome Page */
+
+#welcome-section {
+    color: #fff;
+    /* background: url(../images/pinkStreak.jpg); */
+    background: url(../images/lightbulb3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/* Welcome Page Heading */
+
+#welcome-section .container h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #fafafa;
+    line-height: 3rem;
+}
+
+/* #welcome-section .container h1 .line:first-child {
+    margin-left: 1rem;
+}
+
+#welcome-section .container h1 .line:last-child {
+    margin-left: 2rem;
+}
+
+#welcome-section .container .buttons a:first-child {
+    margin-right: 1rem;
+} */
+
+/* Welcome Page button  */
+
+#welcome-section .container .buttons {
+    display: flex;
+    margin-top: 1rem;
+}
+
+/* Welcome Page button styling */
+
+#welcome-section .container .buttons a, #welcome-section .container .buttons a:visited {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* Welcome Page Portfolio Button Styling */
+
+#welcome-section .container .buttons a:hover, #welcome-section .container .buttons a:active {
+    border: 1px solid #f300b4;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 100px -20px #f300b4;
+}
+
+/* Welcome Page "Find Me" button Styling */
+
+#welcome-section .container .buttons a.cta, #welcome-section .container .buttons a.cta:visited {
+    background: #f300b4;
+    border: 1px solid transparent;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+/* Welcome Page "find me" button fading pink on hover */
+
+#welcome-section .container .buttons a.cta:hover, #welcome-section .container .buttons a.cta:active {
+    background: transparent;
+    border: 1px solid #f300b4;
+}
+
+/* Welcome Page button gap */
+
+#welcome-section .container .buttons a:first-child {
+    margin-right: 1rem;
+}
+
+/* Welcome Page line organization */
+
+.line {
+    display: block;
+}
+
+/* Welcome Page "&" sign color */
+
+.color {
+    color: #f300b4;
+    font-style: italic;
+}
+
+/* About page */
+
+#about {
+    height: 100%;
+    min-height: 100vh;
+    font-size: 1.4rem;
+    position: relative;
+    background: #fafafa;
+    -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    z-index: 5;
+    /* background: #fafafa url(../images/compass.jpg); */
+    /* background: #fafafa url(https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80); */
+    /* background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 200px;
+}
+
+img {
+    opacity: ;
+}
+
+#about .container {
+    padding: 15rem 10rem 12rem;
+    height: 100%;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#about .margin {
+    margin-top: 120px;
+}
+
+#about .title h3 {
+    font-size: 2.4rem;
+    /* color: #000000; */
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.separator {
+    background-color: #f300b4;
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+#about .subtitle {
+    font-size: 1.6rem;
+    text-align: center;
+    color: inherit;
+    padding-bottom: 1.5rem;
+}
+
+#about p {
+    /* color: #555; */
+    line-height: 1.9rem;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#about .description {
+    background: #ffffffaa;
+    padding: 2rem;
+    text-align: justify;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Projects Page */
+
+#projects {
+    min-height: 100vh;
+    font-size: 1.4rem;
+    position: relative;
+    background: black;
+    /* background: linear-gradient( 215deg, #f0f0f0 0%, #fafafa 100%); */
+    margin-top: -10rem;
+    z-index: 1;
+    /* padding-bottom: 250px; */
+}
+
+#projects .container {
+    padding: 192px 0 128px
+}
+
+#projects a, #projects a:visited {
+    color: #f300b4;
+}
+
+#projects a:hover, #projects a:active {
+    color: #252934;
+}
+
+#projects .title {
+    margin-top: 120px;
+    color: white;
+}
+
+#projects .title h3 {
+    font-size: 2.4rem;
+}
+
+#projects p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#projects .subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    color: inherit;
+    padding-bottom: 1.5rem;
+}
+
+#projects .heading .subtitle {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#projects .container {
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 12rem 5rem 8rem;
+}
+
+#projects .project {
+    margin: 1rem auto;
+    width: 70%;
+    padding: 2rem;
+}
+
+#projects .heading .title {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+/* Project Images */
+
+#projects .project .project-link {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin: auto 0; */
+    margin-bottom: auto;
+    color: #252934;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+    box-shadow: 0 20px 10px -10px #25293450;
+    transition: 300ms;
+}
+
+#projects .project .project-link:hover {
+    box-shadow: 0 50px 15px -30px #25293450;
+}
+
+#projects .project .project-link:hover img {
+    filter: saturate(1);
+    transform: scale(1.05);
+}
+
+#projects a, #projects a:visited {
+    color: #f300b4;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(1.2);
+    filter: saturate(0);
+    transition: all 300ms;
+}
+
+.project-link:hover {
+    transition: 200ms;
+}
+
+img {
+    border-style: none;
+}
+
+#projects .project .project-details {
+    /* margin: auto 0; */
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#projects .project-details .project-tile {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #f300b4;
+}
+
+/* Icons */
+
+#projects .project-details .icons {
+    margin: 0;
+    color: #252934;
+}
+
+#projects .project-details .icons i {
+    margin-right: .4rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+/* Text */
+
+#projects .project-details small {
+    font-style: italic;
+}
+
+#projects .project-details p {
+    margin: 1rem 0;
+}
+
+#projects .project-details .buttons {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    /* justify-content: space-between; */
+}
+
+#projects .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Buttons */
+
+#projects .project-details .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#projects .project-details .buttons a {
+    width: 49%;
+    padding: .5rem;
+    border: none;
+    border-bottom: 2px solid #f300b4;
+    color: #252934;
+    background: #fafafa;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#projects .project-details .buttons a:hover {
+    background: #f300b4;
+    color: #fafafa;
+}
+
+#projects .project-details .buttons i {
+    font-size: .8rem;
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+
+/* Skills Page */
+
+#skills {
+    height: 100%;
+    min-height: 100vh;
+    font-size: 1.4rem;
+    position: relative;
+    background: #fafafa;
+    -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    z-index: 5;
+    opacity: url();
+    /* background: #fafafa url(../images/compass.jpg); */
+    /* background: #fafafa url(https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80); */
+    /* background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+
+/* #skills .container {
+    padding: 15rem 10rem 12rem;
+    height: 100%;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+
+#skills .margin {
+    margin-top: 120px;
+}
+
+#skills .title h3 {
+    font-size: 2.4rem;
+}
+
+#skills h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#skills .separator {
+    background-color: #f300b4;
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+#skills .subtitle {
+    font-size: 1.6rem;
+    text-align: center;
+    color: inherit;
+    padding-bottom: 1.5rem;
+}
+
+#skills p {
+    color: #000000;
+    line-height: 1.9rem;
+}
+
+#skills h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#skills .description {
+    background: #ffffffaa;
+    padding: 2rem;
+    text-align: justify;
+}
+
+#skills p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+/* Contact Page */
+#contact {
+    background: #000000;
+    -webkit-clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
+    z-index: 5;
+    color: #fafafa;
+    min-height: 100vh;
+    width: 100%;
+    padding: 5rem 3rem;
+    font-size: 1.25rem;
+}
+
+#contact .social a {
+    color: #fafafa;
+}
+
+#contact .social a:hover {
+    color: #f300b4;
+}
+
+#contact .title {
+    font-size: 3rem;
+    line-height: 2.4rem;
+}
+
+#contact .separator {
+    background-color: #f300b4;
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+#contact a {
+    color: #f300b4;
+}
+
+.btn {
+    background-color: #f300b4;
+    font-size: 1.25rem;
+}
+
+#contact .subtitle {
+    font-size: 1.4rem;
+}
+
+#contact-form {
+    margin-top: 1rem;
+}
+
+input, textarea {
+    border: none;
+    padding: 1rem;
+    font-family: 'Overlock', Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 40%;
+    transition: 200ms;
+}
+
+#contact .php-email-form .sent-message{
+    color: #ffffff;
+    background-color: #f300b4;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+/* Footer */
+
+/* footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+
+/* height: 150px; */
+
+
+footer .container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    font-size: 1.5rem;
+}
