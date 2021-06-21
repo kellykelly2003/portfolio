@@ -100,7 +100,7 @@ a:hover, a:active {
     font-weight: normal;
     font-style: italic;
     color: #fafafa;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 /* #welcome-section .container h1 .line:first-child {
@@ -261,7 +261,7 @@ h4 {
 #about .description {
     background: hsla(0, 0%, 100%, 0.85);
     padding: 2rem;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 p {
@@ -591,7 +591,7 @@ a {
 
 #contact .title {
     font-size: 3rem;
-    line-height: 2.4rem;
+    line-height: 3rem;
 }
 
 #contact .separator {
