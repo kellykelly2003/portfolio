@@ -188,6 +188,7 @@ a:hover, a:active {
     -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
     clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
     z-index: 5;
+    background: #fafafa url(../images/bulb3.png);
     /* background: #fafafa url(../images/compass.jpg); */
     /* background: #fafafa url(https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80); */
     /* background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat; */
@@ -258,7 +259,7 @@ h4 {
 }
 
 #about .description {
-    background: #ffffffaa;
+    background: hsla(0, 0%, 100%, 0.85);
     padding: 2rem;
     text-align: justify;
 }
@@ -484,6 +485,7 @@ a {
     clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
     z-index: 5;
     opacity: url();
+    background: #fafafa url(../images/bulb3.png);
     /* background: #fafafa url(../images/compass.jpg); */
     /* background: #fafafa url(https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80); */
     /* background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat; */
@@ -550,9 +552,8 @@ a {
 }
 
 #skills .description {
-    background: #ffffffaa;
+    background: hsla(0, 0%, 100%, 0.85);
     padding: 2rem;
-    text-align: justify;
 }
 
 #skills p {
